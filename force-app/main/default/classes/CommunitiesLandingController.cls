@@ -5,7 +5,8 @@ public with sharing class CommunitiesLandingController {
     
     // Code we will invoke on page load.
     public PageReference forwardToStartPage() {
-        return Network.communitiesLanding();
+		system.debug('test');
+        return Network.communitiesLanding(); //test comment
     }
     
     public CommunitiesLandingController() {}
